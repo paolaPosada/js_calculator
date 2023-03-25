@@ -1,0 +1,210 @@
+[
+  {
+    "description": "  Como usuario de la calculadora\n  Quiero poder realizar operaciones aritméticas\n  Para que pueda obtener el resultado de la operación deseada",
+    "keyword": "Feature",
+    "name": "Calculadora",
+    "line": 1,
+    "id": "calculadora",
+    "tags": [],
+    "uri": "features\\calculator.feature",
+    "elements": [
+      {
+        "id": "calculadora;sumar-dos-números",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Sumar dos números",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "que tengo los números \"2\" y \"3\"",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "sumo los números",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "debería ver el resultado \"5\"",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "calculadora;restar-dos-números",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Restar dos números",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "que tengo los números \"5\" y \"3\"",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "resto los números",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "debería ver el resultado \"2\"",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "calculadora;multiplicar-dos-números",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Multiplicar dos números",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "que tengo los números \"2\" y \"3\"",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "multiplico los números",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "debería ver el resultado \"6\"",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:27"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: 6 == 5\n    + expected - actual\n\n    -6\n    +5\n\n    at World.<anonymous> (C:\\Users\\paola\\OneDrive\\Documentos\\js_calculator\\features\\step_definitions\\calculator.steps.js:28:10)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "calculadora;dividir-dos-números",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Dividir dos números",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "que tengo los números \"6\" y \"2\"",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "divido los números",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "debería ver el resultado \"3\"",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
