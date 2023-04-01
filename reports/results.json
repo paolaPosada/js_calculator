@@ -22,7 +22,7 @@
             "line": 7,
             "name": "que tengo los números \"2\" y \"3\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:7"
+              "location": "features\\step_definitions\\calculator.steps.js:8"
             },
             "result": {
               "status": "passed",
@@ -35,7 +35,7 @@
             "line": 8,
             "name": "sumo los números",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:12"
+              "location": "features\\step_definitions\\calculator.steps.js:13"
             },
             "result": {
               "status": "passed",
@@ -48,11 +48,11 @@
             "line": 9,
             "name": "debería ver el resultado \"5\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:40"
+              "location": "features\\step_definitions\\calculator.steps.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           }
         ]
@@ -71,7 +71,7 @@
             "line": 12,
             "name": "que tengo los números \"5\" y \"3\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:7"
+              "location": "features\\step_definitions\\calculator.steps.js:8"
             },
             "result": {
               "status": "passed",
@@ -84,11 +84,11 @@
             "line": 13,
             "name": "resto los números",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:16"
+              "location": "features\\step_definitions\\calculator.steps.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -97,11 +97,11 @@
             "line": 14,
             "name": "debería ver el resultado \"2\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:40"
+              "location": "features\\step_definitions\\calculator.steps.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           }
         ]
@@ -120,11 +120,11 @@
             "line": 17,
             "name": "que tengo los números \"2\" y \"3\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:7"
+              "location": "features\\step_definitions\\calculator.steps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "line": 18,
             "name": "multiplico los números",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:20"
+              "location": "features\\step_definitions\\calculator.steps.js:21"
             },
             "result": {
               "status": "passed",
@@ -146,12 +146,12 @@
             "line": 19,
             "name": "debería ver el resultado \"6\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:40"
+              "location": "features\\step_definitions\\calculator.steps.js:47"
             },
             "result": {
               "status": "failed",
-              "duration": 2000000,
-              "error_message": "AssertionError [ERR_ASSERTION]: 6 == 5\n    + expected - actual\n\n    -6\n    +5\n\n    at World.<anonymous> (C:\\Users\\paola\\OneDrive\\Documentos\\js_calculator\\features\\step_definitions\\calculator.steps.js:41:10)"
+              "duration": 3000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: 6 == 5\n    + expected - actual\n\n    -6\n    +5\n\n    at World.<anonymous> (E:\\Documentos\\Dev\\js_calculator\\features\\step_definitions\\calculator.steps.js:48:10)"
             }
           }
         ]
@@ -170,7 +170,7 @@
             "line": 22,
             "name": "que tengo los números \"6\" y \"2\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:7"
+              "location": "features\\step_definitions\\calculator.steps.js:8"
             },
             "result": {
               "status": "passed",
@@ -183,7 +183,7 @@
             "line": 23,
             "name": "divido los números",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:24"
+              "location": "features\\step_definitions\\calculator.steps.js:25"
             },
             "result": {
               "status": "passed",
@@ -196,7 +196,7 @@
             "line": 24,
             "name": "debería ver el resultado \"3\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:40"
+              "location": "features\\step_definitions\\calculator.steps.js:47"
             },
             "result": {
               "status": "passed",
@@ -219,7 +219,7 @@
             "line": 27,
             "name": "que tengo los números \"20\" y \"5\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:7"
+              "location": "features\\step_definitions\\calculator.steps.js:8"
             },
             "result": {
               "status": "passed",
@@ -232,20 +232,7 @@
             "line": 28,
             "name": "intento dividir el primer número por el segundo número",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:28"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 29,
-            "name": "debería ver el resultado \"4\"",
-            "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:40"
+              "location": "features\\step_definitions\\calculator.steps.js:29"
             },
             "result": {
               "status": "passed",
@@ -254,11 +241,24 @@
           },
           {
             "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "debería ver el resultado \"4\"",
+            "match": {
+              "location": "features\\step_definitions\\calculator.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Given ",
             "line": 31,
             "name": "que tengo los números \"10\" y \"0\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:7"
+              "location": "features\\step_definitions\\calculator.steps.js:8"
             },
             "result": {
               "status": "passed",
@@ -271,11 +271,11 @@
             "line": 32,
             "name": "intento dividir el primer número por el segundo número",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:28"
+              "location": "features\\step_definitions\\calculator.steps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -284,11 +284,12 @@
             "line": 33,
             "name": "obtengo un mensaje de error que dice \"No se puede dividir entre cero\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:36"
+              "location": "features\\step_definitions\\calculator.steps.js:43"
             },
             "result": {
-              "status": "passed",
-              "duration": 0
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: 'No se puede dividir entre cero' == undefined\n    at World.<anonymous> (E:\\Documentos\\Dev\\js_calculator\\features\\step_definitions\\calculator.steps.js:44:10)"
             }
           }
         ]

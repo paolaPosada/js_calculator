@@ -1,6 +1,7 @@
 const { Given, When, Then } = require('cucumber');
 const { expect } = require('chai');
 const assert = require('assert');
+const { sumar, dividir, restar } = require('../../calculator');
 
 let num1, num2, result, error;
 
@@ -10,26 +11,26 @@ Given('que tengo los números {string} y {string}', function (string, string2) {
 });
 
 When('sumo los números', function () {
-  result = num1 + num2;
+  result = sumar(num1, num2);
 });
 
 When('resto los números', function () {
-  result = num1 - num2;
+  result = restar(num1, num2);
 });
 
 When('multiplico los números', function () {
-  result = num1 + num2;
+  result = sumar(num1, num2);
 });
 
 When('divido los números', function () {
-  result = num1 / num2;
+  result = dividir(num1, num2);
 });
 
 When('intento dividir el primer número por el segundo número', function () {
-  if (num2 === 0) {
-    error = "No se puede dividir entre cero";
-  } else {
-    result = num1 / num2;
+  try {
+    result = dividir(num1, num2);
+  } catch (error) {
+    error = error;
   }
 });
 
