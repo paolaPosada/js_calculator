@@ -22,3 +22,14 @@ Feature: Calculadora
     Given que tengo los números "6" y "2"
     When divido los números
     Then debería ver el resultado "3"
+
+  Scenario: Dividir dos números, incluyendo la división por cero
+    Given que tengo los números "20" y "5"
+    When intento dividir el primer número por el segundo número
+    Then debería ver el resultado "4"
+
+    Given que tengo los números "10" y "0"
+    When intento dividir el primer número por el segundo número
+    Then obtengo un mensaje de error que dice "No se puede dividir entre cero"
+    
+
