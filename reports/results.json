@@ -26,7 +26,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -48,7 +48,7 @@
             "line": 9,
             "name": "debería ver el resultado \"5\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:47"
+              "location": "features\\step_definitions\\calculator.steps.js:43"
             },
             "result": {
               "status": "passed",
@@ -88,7 +88,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -97,7 +97,7 @@
             "line": 14,
             "name": "debería ver el resultado \"2\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:47"
+              "location": "features\\step_definitions\\calculator.steps.js:43"
             },
             "result": {
               "status": "passed",
@@ -146,12 +146,12 @@
             "line": 19,
             "name": "debería ver el resultado \"6\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:47"
+              "location": "features\\step_definitions\\calculator.steps.js:43"
             },
             "result": {
               "status": "failed",
-              "duration": 3000000,
-              "error_message": "AssertionError [ERR_ASSERTION]: 6 == 5\n    + expected - actual\n\n    -6\n    +5\n\n    at World.<anonymous> (E:\\Documentos\\Dev\\js_calculator\\features\\step_definitions\\calculator.steps.js:48:10)"
+              "duration": 4000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: 6 == 5\n    + expected - actual\n\n    -6\n    +5\n\n    at World.<anonymous> (E:\\Documentos\\Dev\\js_calculator\\features\\step_definitions\\calculator.steps.js:44:10)"
             }
           }
         ]
@@ -196,7 +196,7 @@
             "line": 24,
             "name": "debería ver el resultado \"3\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:47"
+              "location": "features\\step_definitions\\calculator.steps.js:43"
             },
             "result": {
               "status": "passed",
@@ -223,7 +223,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           },
           {
@@ -245,11 +245,11 @@
             "line": 29,
             "name": "debería ver el resultado \"4\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:47"
+              "location": "features\\step_definitions\\calculator.steps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
@@ -275,21 +275,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 33,
-            "name": "obtengo un mensaje de error que dice \"No se puede dividir entre cero\"",
+            "name": "obtengo un mensaje de error que dice \"Error: No se puede dividir entre cero\"",
             "match": {
-              "location": "features\\step_definitions\\calculator.steps.js:43"
+              "location": "features\\step_definitions\\calculator.steps.js:37"
             },
             "result": {
-              "status": "failed",
-              "duration": 1000000,
-              "error_message": "AssertionError [ERR_ASSERTION]: 'No se puede dividir entre cero' == undefined\n    at World.<anonymous> (E:\\Documentos\\Dev\\js_calculator\\features\\step_definitions\\calculator.steps.js:44:10)"
+              "status": "passed",
+              "duration": 4000000
             }
           }
         ]

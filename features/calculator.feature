@@ -30,6 +30,6 @@ Feature: Calculadora
 
     Given que tengo los números "10" y "0"
     When intento dividir el primer número por el segundo número
-    Then obtengo un mensaje de error que dice "No se puede dividir entre cero"
-    
+    Then obtengo un mensaje de error que dice "Error: No se puede dividir entre cero"
+
 

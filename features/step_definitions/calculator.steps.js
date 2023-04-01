@@ -29,8 +29,8 @@ When('divido los números', function () {
 When('intento dividir el primer número por el segundo número', function () {
   try {
     result = dividir(num1, num2);
-  } catch (error) {
-    error = error;
+  } catch (err) {
+    error = err;
   }
 });
 

@@ -12,7 +12,7 @@ function multiplicar(num1, num2) {
 
 function dividir(num1, num2) {
   if (num2 === 0) {
-    throw new Error('No se puede dividir por cero');
+    throw new Error('No se puede dividir entre cero');
   }
   return num1 / num2;
 }
